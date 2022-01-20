@@ -6,6 +6,7 @@
 }
 .category_name{
     color: rgb(90, 90, 90);
+    margin-bottom: 20px;
 }
 .category_articles{
     display: flex;
