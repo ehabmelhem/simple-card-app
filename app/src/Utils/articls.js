@@ -1,9 +1,11 @@
+import { v4 as uuidv4 } from "uuid";
 
 export const articls = [
   {
     category_name: "first category",
     articls: [
       {
+        id: uuidv4(),
         name: "first Article ajksdnjkasnd ajsdnkjasndjkas djasndjjkasndjkasd jasndjklasndjklas jnasdjlkasndkjas jknjklasndjklasnd jalsndljkasndkjasld lijasdnjklasndjkasnd",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",
@@ -37,6 +39,7 @@ export const articls = [
         ],
       },
       {
+        id: uuidv4(),
         name: "second Article",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",
@@ -65,6 +68,7 @@ export const articls = [
         ],
       },
       {
+        id: uuidv4(),
         name: "third Article",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",
@@ -93,6 +97,7 @@ export const articls = [
     category_name: "second category",
     articls: [
       {
+        id: uuidv4(),
         name: "first Article",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",
@@ -126,6 +131,7 @@ export const articls = [
         ],
       },
       {
+        id: uuidv4(),
         name: "second Article",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",
@@ -154,6 +160,7 @@ export const articls = [
         ],
       },
       {
+        id: uuidv4(),
         name: "third Article",
         imageUrl:
           "https://mma.prnewswire.com/media/1504014/Myndlift_Logo.jpg?p=facebook",

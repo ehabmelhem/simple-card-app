@@ -6,8 +6,9 @@ function MainPage() {
     const [articlsArray,setArticls]=React.useState([]);
    const articles =useSelector((state)=>state.articleState.articles)
     React.useEffect(()=>{
+        console.log(articles);
         setArticls(articles)
-    },[])
+    },[articles])
     return (
         <div className="main__page">
             {

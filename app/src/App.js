@@ -10,6 +10,7 @@ import React from "react";
 function App() {
   const dispatch=useDispatch()
 React.useEffect(()=>{
+  console.log(articls)
   dispatch(addArticles(articls))
 },[])
   return (

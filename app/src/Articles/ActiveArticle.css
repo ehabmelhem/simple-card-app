@@ -1,3 +1,9 @@
+.active_article{
+    position: relative;
+    border: 2px solid rgb(150, 150, 150);
+    padding: 10px;
+    border-radius: 20px;
+}
 .screen{
     background-color: rgb(148, 148, 148);
     height:4px;
@@ -26,4 +32,15 @@
 .current__article>h3{
     color: rgb(85, 85, 85);
     margin-bottom: 30px;
+}
+.left_side{
+    position:absolute;
+    height: 100%;
+    width: 50%;
+}
+.right_side{
+    position:absolute;
+    height: 100%;
+    width: 50%;
+    right: 0px;
 }
