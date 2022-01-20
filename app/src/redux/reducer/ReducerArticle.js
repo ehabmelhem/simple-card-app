@@ -1,7 +1,8 @@
-import {CHANGE_ARTICLE} from "../ActionTypes"
+import {CHANGE_ARTICLE,ADD_ARTICLES} from "../ActionTypes"
 
 const initialState = {
-    activeArticle :null
+    activeArticle :null,
+    articles:null,
 };
 
 const articleState =(state=initialState, action)=>{
@@ -13,6 +14,14 @@ const articleState =(state=initialState, action)=>{
                 activeArticle: article
             }
         }
+        case ADD_ARTICLES:{
+            const {articles} = action.payload;
+            return{
+                ...state,
+                articles: articles
+            }
+        }
+
     default:
         return state
     }

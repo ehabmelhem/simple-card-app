@@ -1,19 +1,22 @@
 import React from 'react'
 import Category from './Category/Category';
-import {articls} from "./Utils/articls";
+import {useSelector} from "react-redux"
+
 function MainPage() {
     const [articlsArray,setArticls]=React.useState([]);
+   const articles =useSelector((state)=>state.articleState.articles)
     React.useEffect(()=>{
-        setArticls(articls)
+        setArticls(articles)
     },[])
     return (
-        <div>
+        <div className="main__page">
             {
-                articls.map((element,index)=>(
+                articlsArray.map((element,index)=>(
                         <Category category={element}/>
                 ))
             }
         </div>
+
     )
 }
 

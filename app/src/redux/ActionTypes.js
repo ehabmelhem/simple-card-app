@@ -1,1 +1,2 @@
 export const CHANGE_ARTICLE = "CHANGE_ARTICLE"
+export const ADD_ARTICLES = "ADD_ARTICLES"
