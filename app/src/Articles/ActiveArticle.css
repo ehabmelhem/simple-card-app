@@ -1,0 +1,29 @@
+.screen{
+    background-color: rgb(148, 148, 148);
+    height:4px;
+    border-radius: 999px;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.screen__active{
+    background-color: rgb(132, 253, 132);
+
+}
+.screens_slider{
+    display: flex;
+    justify-content: space-between;
+}
+.current__article{
+    width: 300px;
+    max-width: 500px;
+    margin: 0 auto;    
+    margin-top: 50px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    padding: 20px;
+}
+.current__article>h3{
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+}
